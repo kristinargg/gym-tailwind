@@ -1,5 +1,5 @@
 <template>
-  <div class="font-roboto scroll-smooth">
+  <div class="font-roboto scroll-smooth bg-slate-100">
     <header
       class="
         bg-primary

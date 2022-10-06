@@ -1,7 +1,7 @@
 <template>
   <div>
     <footer class="bg-info py-36 font-inter">
-      <div class="flex flex-wrap px-4 md:px-[165px]">
+      <div class="flex flex-wrap px-4 lg:px-[165px]">
         <div class="w-full px-4 mb-12 md:w-1/4 text-white">
           <h3 class="font-semibold text-lg">Company</h3>
           <ul class="leading-10 mt-6">

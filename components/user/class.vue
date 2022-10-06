@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-20 font-roboto">
+  <div class="pt-20 font-roboto bg-slate-100">
     <div class="bg-class w-full h-full">
       <div class="px-4 py-2 lg:px-[165px] md:py-10">
         <img
@@ -18,9 +18,9 @@
           p-6
           grid grid-cols-1
           lg:grid-cols-2
-          bg-slate-100
           rounded-lg
           shadow-sm
+          bg-white
         "
       >
         <div class="flex items-center">
@@ -35,7 +35,7 @@
               Lakukan fit Rush dengan suasana yang berbeda dari biasanya hanya
               dengan 60 menit dan rasakan bedanya.
             </p>
-            <div class="flex pt-10">
+            <div class="flex pt-10 pb-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -79,15 +79,16 @@
       </div>
     </div>
     <div class="px-4 pt-10 pb-24 w-full lg:px-[165px]">
-      <div class="p-6 rounded-lg">
+      <div class="p-6 rounded-lg shadow-sm bg-white">
         <!-- Date start-->
         <div>
           <h1 class="font-bold text-lg md:text-xl pb-4">Date</h1>
-          <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
+          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
             <button
               type="button"
               class="
                 outline outline-1
+                bg-white
                 focus:font-semibold
                 focus:bg-secondary
                 focus:text-white
@@ -109,6 +110,7 @@
               type="button"
               class="
                 outline outline-1
+                bg-white
                 focus:font-semibold
                 focus:bg-secondary
                 focus:text-white
@@ -130,6 +132,7 @@
               type="button"
               class="
                 outline outline-1
+                bg-white
                 focus:font-semibold
                 focus:bg-secondary
                 focus:text-white
@@ -205,11 +208,12 @@
         <!-- Time Start -->
         <div>
           <h1 class="font-bold text-lg md:text-xl pt-6 pb-4">Time</h1>
-          <div class="grid grid-cols-1 md:grid-cols-5 gap-3">
+          <div class="grid grid-cols-2 sm:grid-cols-5 gap-3">
             <button
               type="button"
               class="
                 outline outline-1
+                bg-white
                 focus:font-semibold
                 focus:bg-secondary
                 focus:text-white
@@ -230,6 +234,7 @@
               type="button"
               class="
                 outline outline-1
+                bg-white
                 focus:font-semibold
                 focus:bg-secondary
                 focus:text-white
@@ -269,11 +274,12 @@
         <!-- type class start -->
         <div>
           <h1 class="font-bold text-lg md:text-xl pt-6 pb-4">Type Class</h1>
-          <div class="grid grid-cols-1 md:grid-cols-5 gap-3">
+          <div class="grid grid-cols-2 sm:grid-cols-5 gap-3">
             <button
               type="button"
               class="
                 outline outline-1
+                bg-white
                 focus:font-semibold
                 focus:bg-secondary
                 focus:text-white
@@ -294,6 +300,7 @@
               type="button"
               class="
                 outline outline-1
+                bg-white
                 focus:font-semibold
                 focus:bg-secondary
                 focus:text-white
@@ -347,7 +354,7 @@
     </div>
   </div>
 </template>
-
+ 
 <script>
 export default {
   name: 'ClassComp',
