@@ -20,7 +20,7 @@ module.exports = {
         abu: '#79747E',
         member: '#BCBCBC',
         notif: '#E9E9E9',
-        disable: '#D8D8D8',
+        disabled: '#D8D8D8',
       },
       fontFamily: {
         roboto: 'Roboto',

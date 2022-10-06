@@ -78,7 +78,273 @@
         </div>
       </div>
     </div>
-    
+    <div class="px-4 pt-10 pb-24 w-full lg:px-[165px]">
+      <div class="p-6 rounded-lg">
+        <!-- Date start-->
+        <div>
+          <h1 class="font-bold text-lg md:text-xl pb-4">Date</h1>
+          <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
+            <button
+              type="button"
+              class="
+                outline outline-1
+                focus:font-semibold
+                focus:bg-secondary
+                focus:text-white
+                focus:shadow-lg
+                py-1
+                rounded-md
+                shadow-md
+                transition
+                duration-500
+                hover:bg-secondary hover:outline-none
+                font-thin
+                text-xs
+              "
+            >
+              13 June 2022 <br />
+              Senin
+            </button>
+            <button
+              type="button"
+              class="
+                outline outline-1
+                focus:font-semibold
+                focus:bg-secondary
+                focus:text-white
+                focus:shadow-lg
+                py-1
+                rounded-md
+                shadow-md
+                transition
+                duration-500
+                hover:bg-secondary hover:outline-none
+                text-xs
+                font-thin
+              "
+            >
+              14 June 2022 <br />
+              Selasa
+            </button>
+            <button
+              type="button"
+              class="
+                outline outline-1
+                focus:font-semibold
+                focus:bg-secondary
+                focus:text-white
+                focus:shadow-lg
+                py-1
+                rounded-md
+                shadow-md
+                transition
+                duration-500
+                hover:bg-secondary hover:outline-none
+                text-xs
+                font-thin
+              "
+            >
+              14 June 2022 <br />
+              Rabu
+            </button>
+            <button
+              type="button"
+              disabled
+              class="
+                bg-disabled
+                py-1
+                rounded-md
+                shadow-md
+                transition
+                duration-500
+                text-xs
+                font-thin
+              "
+            >
+              14 June 2022 <br />
+              Kamis
+            </button>
+            <button
+              type="button"
+              disabled
+              class="
+                bg-disabled
+                py-1
+                rounded-md
+                shadow-md
+                transition
+                duration-500
+                text-xs
+                font-thin
+              "
+            >
+              14 June 2022 <br />
+              Sabtu
+            </button>
+            <button
+              type="button"
+              disabled
+              class="
+                bg-disabled
+                py-1
+                rounded-md
+                shadow-md
+                transition
+                duration-500
+                text-xs
+                font-thin
+              "
+            >
+              14 June 2022 <br />
+              Minggu
+            </button>
+          </div>
+        </div>
+        <!-- Date End -->
+
+        <!-- Time Start -->
+        <div>
+          <h1 class="font-bold text-lg md:text-xl pt-6 pb-4">Time</h1>
+          <div class="grid grid-cols-1 md:grid-cols-5 gap-3">
+            <button
+              type="button"
+              class="
+                outline outline-1
+                focus:font-semibold
+                focus:bg-secondary
+                focus:text-white
+                focus:shadow-lg
+                py-2
+                rounded-md
+                shadow-md
+                transition
+                duration-500
+                hover:bg-secondary hover:outline-none
+                font-thin
+                text-xs
+              "
+            >
+              10.00
+            </button>
+            <button
+              type="button"
+              class="
+                outline outline-1
+                focus:font-semibold
+                focus:bg-secondary
+                focus:text-white
+                focus:shadow-lg
+                py-2
+                rounded-md
+                shadow-md
+                transition
+                duration-500
+                hover:bg-secondary hover:outline-none
+                text-xs
+                font-thin
+              "
+            >
+              15.00
+            </button>
+            <button
+              type="button"
+              disabled
+              class="
+                bg-disabled
+                py-2
+                rounded-md
+                shadow-md
+                transition
+                duration-500
+                text-xs
+                font-thin
+              "
+            >
+              20.00
+            </button>
+          </div>
+        </div>
+        <!-- Time end -->
+
+        <!-- type class start -->
+        <div>
+          <h1 class="font-bold text-lg md:text-xl pt-6 pb-4">Type Class</h1>
+          <div class="grid grid-cols-1 md:grid-cols-5 gap-3">
+            <button
+              type="button"
+              class="
+                outline outline-1
+                focus:font-semibold
+                focus:bg-secondary
+                focus:text-white
+                focus:shadow-lg
+                py-2
+                rounded-md
+                shadow-md
+                transition
+                duration-500
+                hover:bg-secondary hover:outline-none
+                font-thin
+                text-xs
+              "
+            >
+              Online
+            </button>
+            <button
+              type="button"
+              class="
+                outline outline-1
+                focus:font-semibold
+                focus:bg-secondary
+                focus:text-white
+                focus:shadow-lg
+                py-2
+                rounded-md
+                shadow-md
+                transition
+                duration-500
+                hover:bg-secondary hover:outline-none
+                text-xs
+                font-thin
+              "
+            >
+              Offline
+            </button>
+          </div>
+        </div>
+        <!-- type class end -->
+
+        <div class="pt-10 flex w-full px-4 justify-end relative">
+          <button
+            class="
+              bg-info
+              text-white
+              font-thin
+              text-base
+              px-4
+              py-2
+              rounded-md
+              flex
+              justify-end
+            "
+          >
+            Booking
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-6 h-6 pl-2"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.72 7.72a.75.75 0 011.06 0l3.75 3.75a.75.75 0 010 1.06l-3.75 3.75a.75.75 0 11-1.06-1.06l2.47-2.47H3a.75.75 0 010-1.5h16.19l-2.47-2.47a.75.75 0 010-1.06z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
